@@ -1,0 +1,31 @@
+.container{
+  display:flex;
+  border:1px;
+  background-color:brown;
+  flex-direction: column;
+}
+.box1{
+  background-color: red;
+  display:flex;
+  height:50px;
+  justify-content: space-around;
+  align-items:center;
+  flex-direction: row;
+}
+
+.b1{
+  font-size: 15px;
+  border:5px solid pink;
+  flex-shrink:3;
+}
+.b2{
+  font-size: 20px;
+  color:white;
+  border:5px dashed black;
+}
+.b1 :hover{
+  color:lightblue;
+}
+.box1:hover{
+  background-color:blue;
+}
